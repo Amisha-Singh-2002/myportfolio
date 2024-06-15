@@ -6,9 +6,9 @@ import Typewriter from 'typewriter-effect';
 
 function Home() {
   return (
-    <div className="main">
+    <div id="s1" className="main">
         <div className="home1">
-          <h1>Hello I am <br/><Typewriter
+          <h1>Hello, I'm <br/><Typewriter
                     options={{
                       strings: ['Amisha Kumari'],
                       autoStart: true,

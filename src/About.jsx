@@ -4,7 +4,8 @@ import { MdDoubleArrow } from "react-icons/md";
 import "./About.css"
 function About () {
   return (
-      <div className="aboutmain">
+    
+      <div id="s2" className="aboutmain">
           <div className="top">
               <h1>ABOUT <span>ME</span></h1>
           </div>
