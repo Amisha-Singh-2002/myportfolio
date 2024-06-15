@@ -1,0 +1,57 @@
+ .bottomleft{
+    min-width: 40vw;
+   
+    margin-left: 100px;
+   
+
+
+ }
+ .bottomleft img{
+    
+   width:20vw;
+   height: auto;
+    border-radius: 50%;
+    margin-left: 150px;
+    
+ }
+ .bottom{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    
+ }
+ .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: rgb(29, 20, 9);
+      font-size: 1.5rem;
+ }
+ span{
+      color: rgb(20, 103, 197);
+      
+       
+ }
+ .bottomright p{
+    font-size: 1.2rem;
+    font-weight: 550;
+    
+    margin-right: 100px;
+    margin-left: 100px;
+ }
+ .icons{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    margin-left: 100px;
+    
+    
+ }
+ .icons h3{
+    font-size: 1.2rem;
+    font-weight: 550;
+    margin-left: 15px;
+    color: blueviolet;
+
+ }

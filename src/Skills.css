@@ -1,0 +1,79 @@
+.skillmain{
+   
+   margin-bottom: 30vh;
+
+}
+.topskill h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 4rem;
+    font-weight: 700;
+   margin-top:100px;
+   color: rgb(20, 103, 197);
+ }
+ .bottom1,.bottom2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+ }
+ .bottoma{
+    height: 20vh;
+    width: 10vw;
+      margin: 20px;
+   font-size: 3rem;
+    
+    background-color: rgb(241, 237, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    flex-direction: column;
+    padding:20px;
+    border:1px solid rgb(5, 209, 228);
+
+    
+ }
+ .bottoma:hover{
+    transform: scale3d(1.2, 1.2, 1.2);
+    
+ 
+ }
+ .bottoma p{
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: rgb(75, 74, 72);
+      margin-bottom: 50px;
+   
+ }
+ /* .bottoma1{
+   height: 0vh;
+ } */
+ .bottoma a{
+    text-decoration: none;
+    color: rgb(81, 150, 225);
+    font-size: 5rem;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: -20px;
+ }
+ .bottoma a:hover{
+    color: rgb(98, 253, 253);
+    
+ }
+
+ 
+ @media (max-width:750px){
+      .aboutmain,.bottom1,.bottom2{
+            flex-direction: column;
+
+      }
+      .bottoma,.bottomb,.bottomc,.bottomd,.bottome,.bottomf,.bottomg,.bottomh{
+           width: 50vw;
+          
+      }
+
+ }
