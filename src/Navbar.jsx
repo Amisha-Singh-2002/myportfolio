@@ -2,7 +2,7 @@ import React ,{ useState } from 'react'
 import "./Navbar.css"
 import DP from "./assets/DP.jpg"
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri"
-// import Res from "./assets/res.pdf"
+import res from "./assets/res.pdf"
 
 
 const Menu = () => (
@@ -11,7 +11,7 @@ const Menu = () => (
     <p><a href='#s2'>About</a></p>
     <p><a href='#s3'>Skills</a></p>
     <p><a href='#s4'>Project</a></p>
-    {/* <p><a href={}>Resume</a></p> */}
+    <p><a href={res}>Resume</a></p>
     <p><a href='#s5'>Contact</a></p>
   </>
 )

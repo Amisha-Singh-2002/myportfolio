@@ -55,3 +55,30 @@
     color: blueviolet;
 
  }
+ @media (max-width:1200px){
+   .bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+   }
+   .bottomleft{
+        min-width:100vw;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+
+   }
+   .bottomleft img{
+        width:  50vw;
+        height: auto;
+        border-radius: 50%;
+        margin-left: 0px;
+   }
+   .bottomright p{
+        font-size: 1.1rem;
+        font-weight: 550;
+        margin-right: 20px;
+        margin-left: 20px;
+   }
+}
