@@ -2,7 +2,10 @@ import React from 'react'
 import DP from "./assets/DP.jpg"
 import { MdDoubleArrow } from "react-icons/md";
 import "./About.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 function About () {
+    AOS.init();
   return (
     
       <div id="s2" className="aboutmain">
@@ -10,10 +13,10 @@ function About () {
               <h1>ABOUT <span>ME</span></h1>
           </div>
           <div className="bottom">
-                <div className="bottomleft">
+                <div className="bottomleft" data-aos="zoom-in-right">
                     <img src={DP} alt="GPT3 Logo" />
                 </div>
-                <div className="bottomright">
+                <div className="bottomright"  data-aos="zoom-in-left">
                     <p> I'm a dedicated frontend developer with expertise in HTML, CSS, JavaScript, Node.js, React, and Bootstrap. I specialize in creating dynamic, responsive, and user-friendly web applications. Passionate about coding and design, I bring ideas to life with seamless functionality and modern aesthetics.</p>
                        <br/>
                        <br/>
