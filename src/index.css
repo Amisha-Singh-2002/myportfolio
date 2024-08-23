@@ -20,7 +20,7 @@
 
 body{
 
-  background: radial-gradient(circle at 3% 25%, rgb(200, 225, 242) 27%, rgba(246, 196, 227, 0.999) 70%);
+  background: radial-gradient(circle at 5% 35%, rgb(200, 225, 242) 27%, rgba(246, 196, 227, 0.999) 70%);
   background-repeat: no-repeat;
   min-height: 100vh;
 }
