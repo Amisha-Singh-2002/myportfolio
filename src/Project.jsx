@@ -4,6 +4,7 @@ import Cal from "./assets/Cal.png"
 import DP from "./assets/DP.jpg"
 import M from "./assets/M.png"
 import i3 from "./assets/i3.png"
+import i4 from "./assets/i4.png"
 import Card from "./Card.jsx"
 import i from "./assets/i.png"
 import i2 from "./assets/i2.png"
@@ -26,7 +27,9 @@ const Project=()=> {
             <div className='projectcard' data-aos="fade-up-left">
                     <Card img={GOLOCAL} name="E-vendor" desc="My best Project so far, deFi+live location tracking+ecommerce app for both sellers and customer with admin side, decentralized rating " view="https://golocal-ktqh.onrender.com/" git="https://github.com/Amisha-Singh-2002/GoLocal" />
             </div>
-            
+            <div className='projectcard' data-aos="fade-up-left">
+                    <Card img={i4} name="Spotify-Clone" desc="Built a responsive music web app using React.js and Tailwind CSS with routing and React Hooks for dynamic and smooth user interaction" view="https://spotify-iota-two-49.vercel.app/" git="https://github.com/Amisha-Singh-2002/Spotify" />
+            </div>
             <div className='projectcard' data-aos="fade-up-left">
                     <Card img={i} name="Mom&apos;s-Collection" desc="Mom-Collection is an online marketplace connecting local artisans with customers, showcasing handmade products, promoting cultural heritage, and supporting sustainable trade practices globally." view="https://mom-s-hand-made-collection.vercel.app/" git="https://github.com/Amisha-Singh-2002/MOM-S-HAND-MADE-COLLECTION" />
             </div>
